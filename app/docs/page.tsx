@@ -63,9 +63,15 @@ console.log(response.choices[0].message.content);`}</pre>
               </thead>
               <tbody className="divide-y divide-zinc-800">
                 {[
-                  ["cerebras-llama","Cerebras","Fast extraction"],["groq-llama","Groq","Low-latency"],["samba-llama","SambaNova","Balanced"],
-                  ["samba-r1","SambaNova","Reasoning"],["cf-kimi","Fireworks","Analysis"],["gemini","Google","Long context"],
+                  ["cerebras-llama","Cerebras","Fast extraction"],["cerebras-qwen","Cerebras","Reasoning"],
+                  ["groq-llama","Groq","Low-latency"],["groq-scout","Groq","Analysis"],
+                  ["samba-llama","SambaNova","Balanced"],["samba-r1","SambaNova","Chain-of-thought"],
+                  ["cf-kimi","Fireworks","Analysis"],["fw-gptoss","Fireworks","Generation"],
+                  ["gemini","Google","Long context + vision"],
                   ["openrouter-qwen36","OpenRouter","Complex reasoning"],
+                  ["mistral","Mistral","Fast generation"],
+                  ["haiku","Anthropic","Fast Claude"],["opus","Anthropic","Premium reasoning"],
+                  ["zai-flash","ZAI","Speed + quality"],
                 ].map(([m,p,b]) => <tr key={m}><td className="p-4 font-mono text-xs">{m}</td><td className="p-4 text-zinc-400">{p}</td><td className="p-4 text-zinc-400">{b}</td></tr>)}
               </tbody>
             </table>
