@@ -1,0 +1,61 @@
+
+  #compyoot-agent-door { padding: 18px; }
+  #compyoot-agent-door .cq-house {
+    --cq-bg: light-dark(#f2ecde, #1c211b);
+    --cq-panel: light-dark(#e8decb, #272d25);
+    --cq-text: light-dark(#282d23, #f1e9d8);
+    --cq-muted: light-dark(#5b6253, #c0c3b2);
+    --cq-line: light-dark(#bcb8a7, #515647);
+    --cq-copper: light-dark(#8c4729, #e6a17b);
+    --cq-button: light-dark(#884528, #e6a17b);
+    --cq-button-text: light-dark(#fff7ec, #242119);
+    background: var(--cq-bg); color: var(--cq-text);
+    border: 1px solid var(--cq-line); border-radius: 12px;
+    max-width: 590px; margin: 0 auto; overflow: hidden;
+    font: 15px/1.55 Arial, sans-serif;
+  }
+  #compyoot-agent-door .cq-house * { box-sizing: border-box; }
+  #compyoot-agent-door [hidden] { display: none !important; }
+  #compyoot-agent-door .cq-top { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 20px 26px; border-bottom: 1px solid var(--cq-line); }
+  #compyoot-agent-door .cq-brand { font: 29px/1 Georgia, serif; letter-spacing: -1px; }
+  #compyoot-agent-door .cq-brand span { color: var(--cq-copper); }
+  #compyoot-agent-door .cq-night { font: 11px/1.5 ui-monospace, monospace; letter-spacing: 1.6px; color: var(--cq-muted); }
+  #compyoot-agent-door .cq-main { padding: 34px 34px 28px; }
+  #compyoot-agent-door .cq-eyebrow { margin: 0 0 16px; color: var(--cq-copper); font: 11px/1.5 ui-monospace, monospace; letter-spacing: 1.5px; text-transform: uppercase; }
+  #compyoot-agent-door h1, #compyoot-agent-door h2 { font: 42px/1.06 Georgia, serif; letter-spacing: -1.2px; margin: 0 0 17px; color: var(--cq-text); }
+  #compyoot-agent-door .cq-copy { color: var(--cq-muted); margin: 0 0 24px; max-width: 400px; font: 15px/1.65 Arial, sans-serif; }
+  #compyoot-agent-door .cq-door-button { display: flex; align-items: center; width: 100%; padding: 19px 20px; gap: 16px; border: 1px solid var(--cq-line); border-radius: 5px; background: var(--cq-panel); color: var(--cq-text); text-align: left; font: 18px/1.4 Arial, sans-serif; }
+  #compyoot-agent-door .cq-check { border: 1px solid var(--cq-muted); border-radius: 4px; width: 25px; height: 25px; flex-shrink: 0; }
+  #compyoot-agent-door .cq-door-button .cq-bot { margin-left: auto; color: var(--cq-copper); }
+  #compyoot-agent-door .cq-door-button:hover { border-color: var(--cq-copper); }
+  #compyoot-agent-door .cq-quips { margin: 12px 0 25px; color: var(--cq-muted); font: italic 16px/1.4 Georgia, serif; text-align: center; }
+  #compyoot-agent-door .cq-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 24px; }
+  #compyoot-agent-door button.cq-primary { background: var(--cq-button); color: var(--cq-button-text); border: 1px solid transparent; border-radius: 4px; min-height: 44px; padding: 12px 18px; font: 14px/1.35 Arial, sans-serif; }
+  #compyoot-agent-door button.cq-link { background: transparent; color: var(--cq-text); border: 0; min-height: 44px; padding: 9px 0; font: 14px/1.35 Arial, sans-serif; text-decoration: underline; text-underline-offset: 4px; }
+  #compyoot-agent-door .cq-read-door { display: flex; justify-content: center; }
+  #compyoot-agent-door .cq-bottom { padding: 14px 26px; border-top: 1px solid var(--cq-line); font: 11px/1.5 ui-monospace, monospace; color: var(--cq-muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 18px; }
+  #compyoot-agent-door .cq-ticket { padding: 22px; background: var(--cq-panel); border-radius: 4px; margin: 22px 0; }
+  #compyoot-agent-door .cq-ticket-title { font: 11px/1.5 ui-monospace, monospace; letter-spacing: 1px; color: var(--cq-muted); margin: 0 0 16px; }
+  #compyoot-agent-door .cq-menu { margin: 0; padding: 0; list-style: none; }
+  #compyoot-agent-door .cq-menu li { display: grid; grid-template-columns: 1fr auto; align-items: start; gap: 8px 16px; padding: 9px 0; border-top: 1px solid var(--cq-line); }
+  #compyoot-agent-door .cq-menu small { display: block; color: var(--cq-muted); font: 11px/1.5 ui-monospace, monospace; }
+  #compyoot-agent-door .cq-menu strong { font-weight: 400; }
+  #compyoot-agent-door .cq-price { font: 13px/1.5 ui-monospace, monospace; white-space: nowrap; }
+  #compyoot-agent-door .cq-house details { margin-top: 22px; color: var(--cq-muted); }
+  #compyoot-agent-door .cq-house summary { min-height: 36px; font: 13px/1.5 Arial, sans-serif; }
+  #compyoot-agent-door .cq-house pre { padding: 15px; margin: 8px 0 0; background: var(--cq-panel); border-radius: 4px; color: var(--cq-text); white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.6 ui-monospace, monospace; }
+  #compyoot-agent-door .cq-stamp { display: inline-flex; gap: 8px; align-items: center; font: 12px/1.5 ui-monospace, monospace; color: var(--cq-copper); margin-bottom: 20px; }
+  #compyoot-agent-door .cq-poem { font: italic 27px/1.4 Georgia, serif; margin: 16px 0 18px; }
+  #compyoot-agent-door .cq-note { font: 12px/1.6 Arial, sans-serif; color: var(--cq-muted); margin: 16px 0 0; }
+  #compyoot-agent-door .cq-error { color: var(--cq-copper); font: 14px/1.5 Arial, sans-serif; }
+  #compyoot-agent-door .cq-house code { font: 12px/1.6 ui-monospace, monospace; }
+  @media (max-width: 460px) {
+    #compyoot-agent-door { padding: 8px; }
+    #compyoot-agent-door .cq-main { padding: 27px 21px 23px; }
+    #compyoot-agent-door .cq-top, #compyoot-agent-door .cq-bottom { padding-left: 21px; padding-right: 21px; }
+    #compyoot-agent-door h1, #compyoot-agent-door h1, #compyoot-agent-door h2 { font-size: 35px; }
+    #compyoot-agent-door .cq-night { letter-spacing: .7px; }
+    #compyoot-agent-door .cq-ticket { padding: 17px; }
+  }
+
+#compyoot-agent-door{padding-top:40px;padding-bottom:40px}.cq-house button{cursor:pointer}.entrance-shell{min-height:100vh;background:#171b16;padding:16px}.cq-brand{text-decoration:none}.entrance-explanation{max-width:530px;margin:22px auto 6px;color:#bcbcaf;font:14px/1.65 Arial,sans-serif;text-align:center}.entrance-explanation a{color:#e6a17b;text-decoration:underline}.cq-house button:focus-visible,.cq-house a:focus-visible,.cq-house summary:focus-visible{outline:2px solid #e6a17b;outline-offset:4px}

